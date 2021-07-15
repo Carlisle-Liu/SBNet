@@ -1,5 +1,5 @@
 # Learning Structure-Aware Semantic Segmentation with Image-Level Supervision
-<p align="center"><img src="introduction_figure.png" alt="introduction_figure" width="90%"></p>
+<!-- <p align="center"><img src="introduction_figure.png" alt="introduction_figure" width="90%"></p> -->
 
 The implementation of **Learning Structure-Aware Semantic Segmentation with Image-Level Supervision**, Jiawei Liu, Jing Zhang, Yicong Hong and Nick Barnes, IJCNN 2021 [[Paper]](https://arxiv.org/abs/2104.07216).
 
@@ -13,3 +13,7 @@ Thanks to the work of [Yude Wang](https://github.com/YudeWang) and [jiwoon-ahn](
 - pytorch 0.4.1, torchvision 0.2.1
 - CUDA 9.0
 - 4 x GPUs (12GB)
+
+
+## TO DO
+* Training code

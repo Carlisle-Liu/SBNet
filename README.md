@@ -1,4 +1,5 @@
 # Learning Structure-Aware Semantic Segmentation with Image-Level Supervision
+<p align="center"><img src="introduction_figure.jpg" alt="outline" width="90%"></p>
 
 The implementation of **Learning Structure-Aware Semantic Segmentation with Image-Level Supervision**, Jiawei Liu, Jing Zhang, Yicong Hong and Nick Barnes, IJCNN 2021 [[Paper]](https://arxiv.org/abs/2104.07216).
 

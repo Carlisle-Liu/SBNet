@@ -31,3 +31,40 @@ If you find the code useful, please consider citing our paper using the followin
 ```
 pip install -r requirements.txt
 ```
+- Download PASCAL VOC 2012 devkit (follow instructions in http://host.robots.ox.ac.uk/pascal/VOC/voc2012/#devkit). It is suggested to make a soft link toward downloaded dataset.
+```
+ln -s $your_dataset_path/VOCdevkit/VOC2012 VOC2012
+```
+
+
+### SB step
+
+1. SB training
+```
+python train_SB.py --voc12_root VOC2012 --weights $pretrained_model --session_name $your_session_name
+```
+
+2. SEAM inference. 
+```
+python infer_SB.py --weights $SB_weights --infer_list [voc12/val.txt | voc12/train.txt | voc12/train_aug.txt] --out_cam $your_cam_dir --out_crf $your_crf_dir
+```
+
+3. SEAM step evaluation. We provide python mIoU evaluation script `evaluation.py`, or you can use official development kit. Here we suggest to show the curve of mIoU with different background score.
+```
+python evaluation.py --list VOC2012/ImageSets/Segmentation/[val.txt | train.txt] --predict_dir $your_cam_dir --gt_dir VOC2012/SegmentationClass --comment $your_comments --type npy --curve True
+```
+
+### Random walk step
+The random walk step keep the same with AffinityNet repository.
+1. Train AffinityNet.
+```
+python train_aff.py --weights $pretrained_model --voc12_root VOC2012 --la_crf_dir $your_crf_dir_4.0 --ha_crf_dir $your_crf_dir_24.0 --session_name $your_session_name
+```
+2. Random walk propagation
+```
+python infer_aff.py --weights $aff_weights --infer_list [voc12/val.txt | voc12/train.txt] --cam_dir $your_cam_dir --voc12_root VOC2012 --out_rw $your_rw_dir
+```
+3. Random walk step evaluation
+```
+python evaluation.py --list VOC2012/ImageSets/Segmentation/[val.txt | train.txt] --predict_dir $your_rw_dir --gt_dir VOC2012/SegmentationClass --comment $your_comments --type png
+```

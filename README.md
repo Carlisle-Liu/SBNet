@@ -31,10 +31,7 @@ If you find the code useful, please consider citing our paper using the followin
 ```
 pip install -r requirements.txt
 ```
-- Download PASCAL VOC 2012 devkit (follow instructions in http://host.robots.ox.ac.uk/pascal/VOC/voc2012/#devkit). It is suggested to make a soft link toward downloaded dataset.
-```
-ln -s $your_dataset_path/VOCdevkit/VOC2012 VOC2012
-```
+- Download PASCAL VOC 2012 devkit (follow instructions in http://host.robots.ox.ac.uk/pascal/VOC/voc2012/#devkit).
 
 
 ### Smoothing Branch (SB) step

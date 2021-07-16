@@ -25,6 +25,9 @@ If you find the code useful, please consider citing our paper using the followin
 - CUDA 9.0
 - 4 x GPUs (12GB)
 
-
-## TO DO
-* Training code
+## Usage
+### Installation
+- Install python dependencies.
+```
+pip install -r requirements.txt
+```

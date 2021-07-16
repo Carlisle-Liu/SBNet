@@ -78,5 +78,5 @@ Pseudo label retrain on DeepLabv2. We use the implementation of [kazuko1011](htt
 
 | Model         | Train (mIoU)    | Val (mIoU)    | |
 | ------------- |:-------------:|:-----:|:-----:|
-| ResNet-38     | 47.7 | 47.2 | [[Weights]](https://drive.google.com/file/d/1xESB7017zlZHqxEWuh1Rb89UhjTGIKOA/view?usp=sharing) |
+| ResNet-38     | 47.7 | 47.2 | [[Weights]](https://drive.google.com/file/d/1JCKkg-5m8UkR6-bp5D0v8cU-N9GRzuld/view?usp=sharing) |
 

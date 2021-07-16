@@ -68,3 +68,6 @@ python infer_aff.py --weights $aff_weights --infer_list [voc12/val.txt | voc12/t
 ```
 python evaluation.py --list VOC2012/ImageSets/Segmentation/[val.txt | train.txt] --predict_dir $your_rw_dir --gt_dir VOC2012/SegmentationClass --comment $your_comments --type png
 ```
+
+### Pseudo labels retrain
+Pseudo label retrain on DeepLabv2. We use the implementation of [kazuko1011](https://github.com/kazuto1011/deeplab-pytorch.git) 

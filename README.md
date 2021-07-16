@@ -78,5 +78,11 @@ Pseudo label retrain on DeepLabv2. We use the implementation of [kazuko1011](htt
 
 | Model         | Train (mIoU)    | Val (mIoU)    | |
 | ------------- |:-------------:|:-----:|:-----:|
-| ResNet-38     | 47.7 | 47.2 | [[Weights]](https://drive.google.com/file/d/1JCKkg-5m8UkR6-bp5D0v8cU-N9GRzuld/view?usp=sharing) |
+| ResNet-38     | 57.3 | 55.2 | [[Weights]](https://drive.google.com/file/d/1JCKkg-5m8UkR6-bp5D0v8cU-N9GRzuld/view?usp=sharing) |
 
+
+#### Random Walk with AffinityNet
+
+| Model         | alpha | Train (mIoU)    | Val (mIoU)    | |
+| ------------- |:-----:|:---------------:|:-------------:|:-----:|
+| ResNet-38     | 4/16/32 | 65.3 | 63.0 | [[Weights]](https://drive.google.com/file/d/13wApu9In3sCbNBDoAxrrnx9h42f3dJXB/view?usp=sharing) |

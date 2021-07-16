@@ -8,6 +8,17 @@ Compared with expensive pixel-wise annotations, image-level labels make it possi
 
 Thanks to the work of [Yude Wang](https://github.com/YudeWang) and [jiwoon-ahn](https://github.com/jiwoon-ahn), the code of this repository borrow heavly from their [SEAM](https://github.com/YudeWang/SEAM) and [AffinityNet](https://github.com/jiwoon-ahn/psa) repositories, and we follw the same pipeline to verify the effectiveness of our solution.
 
+## Citation
+If you find the code useful, please consider citing our paper using the following BibTeX entry.
+'''
+@article{liu2021learning,
+  title={Learning structure-aware semantic segmentation with image-level supervision},
+  author={Liu, Jiawei and Zhang, Jing and Hong, Yicong and Barnes, Nick},
+  journal={arXiv preprint arXiv:2104.07216},
+  year={2021}
+}
+'''
+
 ## Requirements
 - Python 3.6
 - pytorch 0.4.1, torchvision 0.2.1

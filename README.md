@@ -86,3 +86,10 @@ Pseudo label retrain on DeepLabv2. We use the implementation of [kazuko1011](htt
 | Model         | alpha | Train (mIoU)    | Val (mIoU)    | |
 | ------------- |:-----:|:---------------:|:-------------:|:-----:|
 | ResNet-38     | 4/16/32 | 65.3 | 63.0 | [[Weights]](https://drive.google.com/file/d/13wApu9In3sCbNBDoAxrrnx9h42f3dJXB/view?usp=sharing) |
+
+
+#### DeepLab-v2
+
+| Model         | alpha | Val (mIoU)    | Test (mIoU)    | |
+| ------------- |:-----:|:---------------:|:-------------:|:-----:|
+| ResNet-38     | 4/16/32 | 66.5 | 66.7 | [[Weights]](https://drive.google.com/file/d/13farzNpVi24JXStOuOvnH0xb1-nRjySQ/view?usp=sharing) |

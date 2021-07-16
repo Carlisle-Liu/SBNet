@@ -37,19 +37,19 @@ ln -s $your_dataset_path/VOCdevkit/VOC2012 VOC2012
 ```
 
 
-### SB step
+### Smoothing Branch (SB) step
 
 1. SB training
 ```
 python train_SB.py --voc12_root VOC2012 --weights $pretrained_model --session_name $your_session_name
 ```
 
-2. SEAM inference. 
+2. SB inference. 
 ```
 python infer_SB.py --weights $SB_weights --infer_list [voc12/val.txt | voc12/train.txt | voc12/train_aug.txt] --out_cam $your_cam_dir --out_crf $your_crf_dir
 ```
 
-3. SEAM step evaluation. We provide python mIoU evaluation script `evaluation.py`, or you can use official development kit. Here we suggest to show the curve of mIoU with different background score.
+3. SB step evaluation. We provide python mIoU evaluation script `evaluation.py`, or you can use official development kit. Here we suggest to show the curve of mIoU with different background score.
 ```
 python evaluation.py --list VOC2012/ImageSets/Segmentation/[val.txt | train.txt] --predict_dir $your_cam_dir --gt_dir VOC2012/SegmentationClass --comment $your_comments --type npy --curve True
 ```

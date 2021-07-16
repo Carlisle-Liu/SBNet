@@ -70,4 +70,13 @@ python evaluation.py --list VOC2012/ImageSets/Segmentation/[val.txt | train.txt]
 ```
 
 ### Pseudo labels retrain
-Pseudo label retrain on DeepLabv2. We use the implementation of [kazuko1011](https://github.com/kazuto1011/deeplab-pytorch.git) 
+Pseudo label retrain on DeepLabv2. We use the implementation of [kazuko1011](https://github.com/kazuto1011/deeplab-pytorch.git).
+
+
+## Results and Trained Models
+#### Class Activation Map
+
+| Model         | Train (mIoU)    | Val (mIoU)    | |
+| ------------- |:-------------:|:-----:|:-----:|
+| ResNet-38     | 47.7 | 47.2 | [[Weights]](https://drive.google.com/file/d/1xESB7017zlZHqxEWuh1Rb89UhjTGIKOA/view?usp=sharing) |
+

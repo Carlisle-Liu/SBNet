@@ -10,14 +10,14 @@ Thanks to the work of [Yude Wang](https://github.com/YudeWang) and [jiwoon-ahn](
 
 ## Citation
 If you find the code useful, please consider citing our paper using the following BibTeX entry.
-'''
+```
 @article{liu2021learning,
   title={Learning structure-aware semantic segmentation with image-level supervision},
   author={Liu, Jiawei and Zhang, Jing and Hong, Yicong and Barnes, Nick},
   journal={arXiv preprint arXiv:2104.07216},
   year={2021}
 }
-'''
+```
 
 ## Requirements
 - Python 3.6

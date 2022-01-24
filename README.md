@@ -11,12 +11,24 @@ Thanks to the work of [Yude Wang](https://github.com/YudeWang) and [jiwoon-ahn](
 ## Citation
 If you find the code useful, please consider citing our paper using the following BibTeX entry.
 ```
-@article{liu2021learning,
-  title={Learning structure-aware semantic segmentation with image-level supervision},
+@INPROCEEDINGS{9533846,
+
   author={Liu, Jiawei and Zhang, Jing and Hong, Yicong and Barnes, Nick},
-  journal={arXiv preprint arXiv:2104.07216},
-  year={2021}
-}
+
+  booktitle={2021 International Joint Conference on Neural Networks (IJCNN)}, 
+
+  title={Learning structure-aware semantic segmentation with image-level supervision}, 
+
+  year={2021},
+
+  volume={},
+
+  number={},
+
+  pages={1-8},
+
+  doi={10.1109/IJCNN52387.2021.9533846}}
+
 ```
 
 ## Requirements
